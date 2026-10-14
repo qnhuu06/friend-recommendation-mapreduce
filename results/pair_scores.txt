@@ -1,0 +1,12 @@
+["PAIR", "Alice", "Dan"]	{"score": 1, "mutual_friends": ["Bob"]}
+["PAIR", "Alice", "Eve"]	{"score": 1, "mutual_friends": ["Carol"]}
+["PAIR", "Bob", "Eve"]	{"score": 2, "mutual_friends": ["Carol", "Dan"]}
+["PAIR", "Bob", "Frank"]	{"score": 1, "mutual_friends": ["Dan"]}
+["PAIR", "Carol", "Dan"]	{"score": 2, "mutual_friends": ["Bob", "Eve"]}
+["PAIR", "Eve", "Frank"]	{"score": 1, "mutual_friends": ["Dan"]}
+["USER", "Alice"]	null
+["USER", "Bob"]	null
+["USER", "Carol"]	null
+["USER", "Dan"]	null
+["USER", "Eve"]	null
+["USER", "Frank"]	null

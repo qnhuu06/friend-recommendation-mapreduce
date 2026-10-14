@@ -1,0 +1,6 @@
+{"user": "Alice", "friends": ["Bob", "Carol"]}
+{"user": "Bob", "friends": ["Alice", "Carol", "Dan"]}
+{"user": "Carol", "friends": ["Alice", "Bob", "Eve"]}
+{"user": "Dan", "friends": ["Bob", "Eve", "Frank"]}
+{"user": "Eve", "friends": ["Carol", "Dan"]}
+{"user": "Frank", "friends": ["Dan"]}

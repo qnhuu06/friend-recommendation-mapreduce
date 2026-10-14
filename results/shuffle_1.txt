@@ -1,0 +1,31 @@
+["PAIR", "Alice", "Bob"]	["DIRECT"]
+["PAIR", "Alice", "Bob"]	["DIRECT"]
+["PAIR", "Alice", "Bob"]	["MUTUAL", "Carol"]
+["PAIR", "Alice", "Carol"]	["DIRECT"]
+["PAIR", "Alice", "Carol"]	["MUTUAL", "Bob"]
+["PAIR", "Alice", "Carol"]	["DIRECT"]
+["PAIR", "Alice", "Dan"]	["MUTUAL", "Bob"]
+["PAIR", "Alice", "Eve"]	["MUTUAL", "Carol"]
+["PAIR", "Bob", "Carol"]	["MUTUAL", "Alice"]
+["PAIR", "Bob", "Carol"]	["DIRECT"]
+["PAIR", "Bob", "Carol"]	["DIRECT"]
+["PAIR", "Bob", "Dan"]	["DIRECT"]
+["PAIR", "Bob", "Dan"]	["DIRECT"]
+["PAIR", "Bob", "Eve"]	["MUTUAL", "Carol"]
+["PAIR", "Bob", "Eve"]	["MUTUAL", "Dan"]
+["PAIR", "Bob", "Frank"]	["MUTUAL", "Dan"]
+["PAIR", "Carol", "Dan"]	["MUTUAL", "Bob"]
+["PAIR", "Carol", "Dan"]	["MUTUAL", "Eve"]
+["PAIR", "Carol", "Eve"]	["DIRECT"]
+["PAIR", "Carol", "Eve"]	["DIRECT"]
+["PAIR", "Dan", "Eve"]	["DIRECT"]
+["PAIR", "Dan", "Eve"]	["DIRECT"]
+["PAIR", "Dan", "Frank"]	["DIRECT"]
+["PAIR", "Dan", "Frank"]	["DIRECT"]
+["PAIR", "Eve", "Frank"]	["MUTUAL", "Dan"]
+["USER", "Alice"]	null
+["USER", "Bob"]	null
+["USER", "Carol"]	null
+["USER", "Dan"]	null
+["USER", "Eve"]	null
+["USER", "Frank"]	null

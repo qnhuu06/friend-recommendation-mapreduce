@@ -1,0 +1,18 @@
+"Alice"	{"candidate": "Dan", "score": 1, "mutual_friends": ["Bob"]}
+"Dan"	{"candidate": "Alice", "score": 1, "mutual_friends": ["Bob"]}
+"Alice"	{"candidate": "Eve", "score": 1, "mutual_friends": ["Carol"]}
+"Eve"	{"candidate": "Alice", "score": 1, "mutual_friends": ["Carol"]}
+"Bob"	{"candidate": "Eve", "score": 2, "mutual_friends": ["Carol", "Dan"]}
+"Eve"	{"candidate": "Bob", "score": 2, "mutual_friends": ["Carol", "Dan"]}
+"Bob"	{"candidate": "Frank", "score": 1, "mutual_friends": ["Dan"]}
+"Frank"	{"candidate": "Bob", "score": 1, "mutual_friends": ["Dan"]}
+"Carol"	{"candidate": "Dan", "score": 2, "mutual_friends": ["Bob", "Eve"]}
+"Dan"	{"candidate": "Carol", "score": 2, "mutual_friends": ["Bob", "Eve"]}
+"Eve"	{"candidate": "Frank", "score": 1, "mutual_friends": ["Dan"]}
+"Frank"	{"candidate": "Eve", "score": 1, "mutual_friends": ["Dan"]}
+"Alice"	null
+"Bob"	null
+"Carol"	null
+"Dan"	null
+"Eve"	null
+"Frank"	null

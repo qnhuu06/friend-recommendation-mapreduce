@@ -1,0 +1,6 @@
+{"user": "Alice", "recommendations": [{"candidate": "Dan", "score": 1, "mutual_friends": ["Bob"]}, {"candidate": "Eve", "score": 1, "mutual_friends": ["Carol"]}]}
+{"user": "Bob", "recommendations": [{"candidate": "Eve", "score": 2, "mutual_friends": ["Carol", "Dan"]}, {"candidate": "Frank", "score": 1, "mutual_friends": ["Dan"]}]}
+{"user": "Carol", "recommendations": [{"candidate": "Dan", "score": 2, "mutual_friends": ["Bob", "Eve"]}]}
+{"user": "Dan", "recommendations": [{"candidate": "Carol", "score": 2, "mutual_friends": ["Bob", "Eve"]}, {"candidate": "Alice", "score": 1, "mutual_friends": ["Bob"]}]}
+{"user": "Eve", "recommendations": [{"candidate": "Bob", "score": 2, "mutual_friends": ["Carol", "Dan"]}, {"candidate": "Alice", "score": 1, "mutual_friends": ["Carol"]}]}
+{"user": "Frank", "recommendations": [{"candidate": "Bob", "score": 1, "mutual_friends": ["Dan"]}, {"candidate": "Eve", "score": 1, "mutual_friends": ["Dan"]}]}
